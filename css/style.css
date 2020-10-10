@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Lato Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local url('../fonts/Lato-Light.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Miso';
+    font-style: normal;
+    font-weight: normal;
+    src: local url('../fonts/miso.woff') format('woff');
+}
+
+#yellow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    height: 600px;
+    background-color: #fdde7e;
+    margin: auto
+}
+
+.white {
+    width: 360px;
+    height: 440px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 42px;
+}
+
+.left {
+    margin-left: 30px;
+}
+
+.right {
+    margin-right: 30px;
+}
+
+.cups {
+    margin-top: 20px;
+}
+
+.colors {
+    font-family: Miso;
+    font-size: 56pt;
+    color: #333333;
+    margin: 0;
+}
+
+.text {
+    font-family: Lato;
+    font-size: 20pt;
+    color: #333333;
+    margin: 0;
+}
